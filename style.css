@@ -8,6 +8,7 @@ h3 {
 h5 {
     font-size: 1em;
     margin: auto;
+    text-align: center;
 }
 
 .header{
@@ -53,7 +54,7 @@ h5 {
     height:2em;
     width:80%;
 
-    border-style: solid;
+    border-style: none;
     border-width: 0.1em;
     border-color: black;
     border-radius: 0.5em;
@@ -84,7 +85,36 @@ h5 {
     border-width: 0.1em;
     border-color: black;
     border-radius: 0.5em;
+}
 
+.report{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+
+    height:95%;
+    width:95%;
+}
+.report-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    margin-top:1em;
+    height:30%;
+    width:30%;
+
+    border-style: solid;
+    border-color: skyblue;
+    border-radius: 0.5em;
+    border-width: 0.1em;
 }
 
 .footer{

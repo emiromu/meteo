@@ -11,12 +11,20 @@
     </div>
     <div id="main" class="main">
         <div id="navigationMenu" class="navigation-menu">
-            <input id="cityInput" type="text" placeholder="City name..." name="search">
+                <input id="cityInput" 
+                type="text" 
+                placeholder="City name..." 
+                name="search" 
+                minlength="0" 
+                maxlength="24"
+                required="true"
+                pattern="[a-zA-Z0-9\s]+"
+                >
             &nbsp
             <button id="searchButton" type="submit" class="search-button">🔍</button>
         </div>
         <div id="weatherPannel" class="pannel">
-            pannel here
+            Please use the search bar to enter a city name.
         </div>
     </div>
     <div id="footer" class="footer">
