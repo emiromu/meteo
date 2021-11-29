@@ -1,5 +1,5 @@
-/**Free public API Key, safe to let public for the scope of the project*/
-const key = '484e301936b57b282774bca33781f11b';
+/**Free public API Key goes here*/
+const key = '';
 
 function createWeatherCard(apiData,units){
 
